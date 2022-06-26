@@ -1,0 +1,157 @@
+.banxing {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav>ul>li:nth-of-type(2) {
+    background-color: rgb(22, 143, 248);
+}
+
+.header-nav>ul>li:nth-of-type(2)>a {
+    color: rgb(253, 255, 254);
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    min-width: 1200px;
+    max-width: 1920px;
+}
+
+.text-image {
+    position: absolute;
+    width: 1200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.banner>img {
+    display: block;
+    width: 100%;
+    height: 571px;
+    min-width: 1200px;
+    max-width: 1920px;
+}
+
+.banner-text {
+    position: absolute;
+    width: 330px;
+    height: 175px;
+    bottom: 100px;
+    left: 256px;
+    background: url(../images/jieshao/尽心服务.png) center/326px 160px no-repeat;
+}
+
+main {
+    display: flex;
+    height: 908px;
+    background-color: rgb(232, 232, 232);
+}
+
+.aside-nav {
+    width: 295px;
+    height: 100%;
+}
+
+.nav-title {
+    width: 260px;
+    height: 80px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    line-height: 80px;
+    background-color: white;
+    border: 1px solid rgb(191, 191, 191);
+    box-shadow: rgb(191, 191, 191) 1px 1px 2px;
+    box-sizing: border-box;
+    margin-top: 105px;
+    margin-bottom: 62px;
+}
+
+.aside-nav>ul>li {
+    width: 258px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+}
+
+.aside-nav>ul>li>a {
+    display: block;
+    width: 258px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.aside-nav .selected {
+    color: rgb(0, 132, 253);
+    border-left: 6px solid rgb(2, 132, 255);
+}
+
+.content {
+    width: 905px;
+    height: 100%;
+    background: url('../images/jieshao/2_03.jpg') center/100% no-repeat;
+}
+
+.nav-tag {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    box-sizing: border-box;
+    margin-left: 35px;
+    margin-top: 95px;
+}
+
+.nav-tag>i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    vertical-align: middle;
+    transform: translateY(-2px);
+    background: url('../images/jieshao/2_03.png') center/100% no-repeat;
+}
+
+.content>.title {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border-radius: 2px;
+    margin: 16px 0 0 50px;
+}
+
+.artical {
+    display: flex;
+    justify-content: space-between;
+    width: 905px;
+    height: 506px;
+    margin-top: 57px;
+}
+
+.artical>p {
+    width: 358px;
+    font-size: 14px;
+    line-height: 30px;
+    margin-left: 50px;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+.artical>img {
+    width: 450px;
+    height: 100%;
+}

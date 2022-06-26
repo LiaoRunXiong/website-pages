@@ -1,0 +1,121 @@
+header {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    width: 100%;
+    min-width: 1200px;
+    z-index: 5;
+}
+
+.header-nav {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 1200px;
+    height: 107px;
+    min-width: 1200px;
+    background-color: rgb(255, 255, 255);
+}
+
+.header-nav>ul {
+    display: flex;
+    justify-content: center;
+    justify-self: self-start;
+    margin-left: 136px;
+}
+
+.header-nav>ul>li {
+    height: 107px;
+    padding: 50px 24px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    /* background-color: rgb(22, 143, 248); */
+}
+
+.header-nav>ul>li>a {
+    display: block;
+    color: rgb(50, 50, 50);
+    font-weight: 600;
+}
+
+.header-nav>ul>a>li .header-logo>img {
+    display: block;
+    width: 113px;
+    height: 82px;
+}
+
+.link-search {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    /* justify-content: space-between; */
+    width: 296px;
+    height: 60px;
+    margin-top: 14px;
+    margin-left: 94px;
+}
+
+.link {
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    color: rgb(152, 152, 152);
+}
+
+.link::before {
+    display: inline-block;
+    content: "";
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background: url(../images/index/1_05.png) center/13px no-repeat;
+}
+
+.link>span {
+    padding: 0 8px;
+}
+
+.link-search>input {
+    width: 186px;
+    height: 28px;
+    line-height: 28px;
+    box-sizing: border-box;
+    border: 1px solid rgb(217, 217, 217);
+    /* border-width: 6px 8px 5px; */
+    margin-top: 16px;
+    margin-left: 75px;
+    border-radius: 8px 0 0 8px;
+    text-indent: 1em;
+}
+
+.link-search>a {
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 26px;
+    top: 30px;
+    left: 260px;
+    border: 1px solid rgb(217, 217, 217);
+    border-radius: 0 8px 8px 0;
+    background: url(../images/index/iconfont-sousuo.png) center/15px no-repeat;
+}
+
+.link-search>input::placeholder {
+    color: rgb(165, 161, 162);
+}
+
+.left-decoration {
+    width: calc((100% - 1200px) / 2);
+    border-top: 67px solid rgb(255, 255, 255);
+    border-right: 40px solid rgb(255, 255, 255);
+    /* rgb(255, 255, 255) */
+    border-bottom: 40px solid transparent;
+}
+
+.right-decoration {
+    width: calc((100% - 1200px) / 2);
+    border-top: 67px solid rgb(255, 255, 255);
+    border-left: 40px solid rgb(255, 255, 255);
+    border-bottom: 40px solid transparent;
+}

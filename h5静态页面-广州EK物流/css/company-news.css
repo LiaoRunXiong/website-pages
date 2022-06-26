@@ -1,0 +1,243 @@
+    .banxing {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .header-nav>ul>li:nth-of-type(3) {
+        background-color: rgb(22, 143, 248);
+    }
+    
+    .header-nav>ul>li:nth-of-type(3)>a {
+        color: rgb(253, 255, 254);
+    }
+    
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 547px;
+        margin: 0 auto;
+        overflow: hidden;
+        top: 0;
+        min-width: 1200px;
+        max-width: 1920px;
+    }
+    
+    .text-image {
+        position: absolute;
+        width: 1200px;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    
+    .banner>img {
+        display: block;
+        width: 100%;
+        height: 547px;
+        min-width: 1200px;
+        max-width: 1920px;
+    }
+    
+    .banner-text {
+        position: absolute;
+        width: 330px;
+        height: 175px;
+        bottom: 175px;
+        left: 308px;
+        background: url(../images/jieshao/尽心服务.png) center/326px 160px no-repeat;
+    }
+    
+    main {
+        display: flex;
+        height: 1236px;
+        background-color: rgb(232, 232, 232);
+    }
+    
+    .aside-nav {
+        width: 295px;
+        height: 100%;
+    }
+    
+    .nav-title {
+        width: 260px;
+        height: 80px;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        line-height: 80px;
+        background-color: white;
+        border: 1px solid rgb(191, 191, 191);
+        box-shadow: rgb(191, 191, 191) 1px 1px 2px;
+        box-sizing: border-box;
+        margin-top: 105px;
+        margin-bottom: 62px;
+    }
+    
+    .aside-nav>ul>li {
+        width: 258px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgb(153, 153, 153);
+    }
+    
+    .aside-nav>ul>li>a {
+        display: block;
+        width: 258px;
+        height: 26px;
+        line-height: 26px;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        box-sizing: border-box;
+    }
+    
+    .aside-nav .selected {
+        color: rgb(0, 132, 253);
+        border-left: 6px solid rgb(2, 132, 255);
+    }
+    
+    .content {
+        position: relative;
+        width: 905px;
+        height: 1236px;
+        background: url('../images/jieshao/2_03.jpg') center/100% 100% no-repeat;
+        /* background-size第一个值为宽 第二高 只设置一个百分比为宽，高位auto */
+    }
+    
+    .nav-tag {
+        height: 34px;
+        line-height: 34px;
+        font-size: 14px;
+        border-bottom: 1px solid rgb(153, 153, 153);
+        box-sizing: border-box;
+        margin-left: 35px;
+        margin-top: 95px;
+    }
+    
+    .nav-tag>i {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        margin-right: 12px;
+        vertical-align: middle;
+        transform: translateY(-2px);
+        background: url('../images/jieshao/2_03.png') center/100% no-repeat;
+    }
+    
+    .content>.title {
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        color: white;
+        background-color: rgb(0, 132, 255);
+        border-radius: 2px;
+        margin: 16px 0 0 64px;
+    }
+    
+    .news-lists {
+        width: 707px;
+        height: 776px;
+        margin-bottom: 115px;
+        margin-left: 64px;
+        margin-top: 40px;
+    }
+    
+    .news-lists>ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .news-lists>ul>li {
+        margin-bottom: 42px;
+    }
+    
+    .news-lists>ul>li>a {
+        display: flex;
+        justify-content: space-between;
+        width: 707px;
+    }
+    
+    .news-lists>ul>li>a>img {
+        display: block;
+        width: 257px;
+        height: 162px;
+    }
+    
+    .artical {
+        position: relative;
+        width: 404px;
+        height: 162px;
+        color: black;
+    }
+    
+    .artical>h2 {
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 16px;
+    }
+    
+    .artical>p {
+        font-size: 14px;
+        line-height: 18px;
+        text-align: justify;
+    }
+    
+    .artical .btn-more {
+        position: absolute;
+        width: 55px;
+        height: 22px;
+        line-height: 20px;
+        font-size: 12px;
+        text-align: center;
+        border: 1px solid rgb(201, 200, 196);
+        box-sizing: border-box;
+        bottom: 0;
+        right: 0;
+    }
+    
+    .news-tab {
+        display: flex;
+        position: absolute;
+        justify-content: space-between;
+        color: 102, 102, 102;
+        width: 438px;
+        right: 120px;
+        bottom: 100px;
+    }
+    
+    .btn-tab-lists {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        width: 328px;
+        height: 20px;
+    }
+    
+    .btn-tab-lists>li {
+        padding: 0 5px;
+        height: 18px;
+        line-height: 18px;
+        text-align: center;
+        border: 1px solid rgb(170, 170, 170);
+        background-color: rgb(237, 237, 237);
+    }
+    
+    .btn-tab-lists>li:nth-of-type(3) {
+        color: rgb(245, 59, 60);
+        background-color: rgb(254, 255, 255);
+    }
+    
+    .record-pages {
+        height: 20px;
+        line-height: 20px;
+        font-size: 12px;
+        color: rgb(153, 153, 153);
+    }
+    
+    .record-pages>span {
+        margin-left: 8px;
+    }

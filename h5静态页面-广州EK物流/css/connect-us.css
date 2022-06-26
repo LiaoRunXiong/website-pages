@@ -1,0 +1,192 @@
+.banxing {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-nav>ul>li:nth-of-type(5) {
+    background-color: rgb(22, 143, 248);
+}
+
+.header-nav>ul>li:nth-of-type(5)>a {
+    color: rgb(253, 255, 254);
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    margin: 0 auto;
+    overflow: hidden;
+    top: 0;
+    min-width: 1200px;
+    max-width: 1920px;
+}
+
+.text-image {
+    position: absolute;
+    width: 1200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.banner>img {
+    display: block;
+    width: 100%;
+    height: 520px;
+    min-width: 1200px;
+    max-width: 1920px;
+}
+
+.banner-text {
+    position: absolute;
+    width: 330px;
+    height: 175px;
+    bottom: 175px;
+    left: 308px;
+    background: url(../images/jieshao/尽心服务.png) center/326px 160px no-repeat;
+}
+
+.content {
+    padding: 40px 0 125px 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    background: url('../images/jieshao/2_03.jpg') center/100% no-repeat;
+}
+
+.content>.nav-tag {
+    width: 1121px;
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    box-sizing: border-box;
+    margin-left: 80px;
+    color: rgb(102, 102, 102);
+}
+
+.nav-tag>i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+    vertical-align: middle;
+    transform: translateY(-2px);
+}
+
+.inner-content {
+    width: 664px;
+    margin: 0 auto;
+    margin-top: 27px;
+}
+
+.inner-content>.blue-title {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border-radius: 2px;
+}
+
+.speak-text {
+    display: flex;
+    width: 664px;
+    height: 152px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.speak-text>.text {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.speak-text>img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgb(163, 163, 161) 0 0 3px;
+    margin-right: 30px;
+}
+
+.link-address {
+    display: flex;
+    justify-content: space-between;
+    width: 664px;
+    height: 310px;
+}
+
+.link-methods {
+    position: relative;
+    width: 308px;
+    height: 310px;
+    color: rgb(254, 254, 255);
+    font-size: 14px;
+    line-height: 24px;
+    background-color: rgb(23, 138, 244);
+    padding: 45px 0 0 15px;
+    box-sizing: border-box;
+}
+
+.link-methods::before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 38px;
+    border-left: 25px solid rgb(23, 138, 244);
+    border-top: 19px solid transparent;
+    border-bottom: 19px solid transparent;
+    box-sizing: border-box;
+    right: -25px;
+    top: 45px;
+}
+
+.link-methods i {
+    display: inline-block;
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: 2px;
+    margin-right: 5px;
+}
+
+.link-methods .kefu {
+    background: url('../images/connect_us/客户.png') center/100% 100% no-repeat;
+}
+
+.link-methods .dizhi {
+    background: url('../images/connect_us/房子.png') center/100% 100% no-repeat;
+}
+
+.link-methods .dh {
+    background: url('../images/connect_us/电话.png') center/100% 100% no-repeat;
+}
+
+.link-methods .cz {
+    background: url('../images/connect_us/传真.png') center/100% 100% no-repeat;
+}
+
+.link-methods .yj {
+    background: url('../images/connect_us/邮箱.png') center/100% 100% no-repeat;
+}
+
+.link-methods .sj {
+    background: url('../images/connect_us/手机.png') center/100% 100% no-repeat;
+}
+
+.address {
+    width: 336px;
+    height: 310px;
+}
+
+.address>img {
+    display: block;
+    width: 336px;
+    height: 310px;
+}
